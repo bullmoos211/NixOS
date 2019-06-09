@@ -86,7 +86,7 @@
 	anydesk	
 	google-chrome
 	google-chrome-beta
-	rambox
+	# rambox - not currently working
 	spotify
 	steam
 	teamviewer
