@@ -50,19 +50,24 @@
 	deja-dup
 	deluge
 	docker
+	dmidecode
 	filezilla
 	flatpak
 	franz
+	gimp
 	git
 	gitkraken
 	gparted
+	htop
 	icecat
 	kdenlive
+	kubernetes
 	lastpass-cli
 	libreoffice
 	lshw
 	nixui
 	nmap
+	openshift
 	parted
 	#qemu #might be manual?
 	qtkeychain
@@ -86,7 +91,7 @@
 	anydesk	
 	google-chrome
 	google-chrome-beta
-	# rambox - not currently working
+	# rambox - currently not working
 	spotify
 	steam
 	teamviewer
@@ -137,21 +142,26 @@
     services.flatpak.enable = true;
 
   # Enable the Desktop Environment.
-	# KDE
+
+  # KDE
   # services.xserver.displayManager.sddm.enable = true;
   # services.xserver.desktopManager.plasma5.enable = true;
-	# Gnome
+  # Gnome
     services.xserver.displayManager.gdm.enable = true;
     services.xserver.desktopManager.gnome3.enable = true;
-	# Pantheon
-   # services.xserver.displayManager.lightdm.enable = true;
+  # Pantheon
+  # services.xserver.displayManager.lightdm.enable = true;
   # services.xserver.desktopManager.pantheon.enable = true;
 
   # Virtualisation Configutations.
 	# enable docker
 	  virtualisation.docker.enable = true;
+	# enable virtualbox, Oracle Extension Pack
+	  virtualisation.virtualbox.host.enable = true;
+	  virtualisation.virtualbox.host.enableExtensionPack = true;
 	# Allow my regular use to control Docker.
 	  users.extraUsers.USER.extraGroups = [ "docker" ];
+
   # Define a user account. Don't forget to set a password with ‘passwd’.
     users.users.daniel = {
       isNormalUser = true;
