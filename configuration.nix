@@ -46,6 +46,7 @@
 	bind
 	calibre
 	chromium
+	cmake
 	cool-retro-term
 	deja-dup
 	deluge
