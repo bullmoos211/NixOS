@@ -19,6 +19,7 @@
   # boot.loader.efi.efiSysMountPoint = "/boot/efi";
   # Define on which hard drive you want to install Grub.
     boot.loader.grub.device = "/dev/sda"; # or "nodev" for efi only
+    boot.loader.grub.useOSProber = true;
 
   # networking.hostName = "nixos"; # Define your hostname.
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
@@ -70,6 +71,7 @@
 	nmap
 	openshift
 	parted
+	pciutils
 	#qemu #might be manual?
 	qtkeychain
 	remmina
