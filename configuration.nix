@@ -53,6 +53,7 @@
 	deluge
 	docker
 	dmidecode
+	exfat
 	filezilla
 	flatpak
 	franz
