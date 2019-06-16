@@ -76,6 +76,7 @@
 	shutter
 	solaar
 	thunderbird
+	thinkfan #lenovo
 	#tomahawk - broken
 	transmission-remote-gtk
 	vim
