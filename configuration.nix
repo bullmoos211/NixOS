@@ -16,8 +16,9 @@
   	boot.loader.efi.canTouchEfiVariables = true;
   	boot.loader.grub.useOSProber = true;
 	
-  # Thinkfan control
+  # Thinkfan control - still not working
     services.thinkfan.enable = true;
+  # services.thinkfan.sensor = "/sys/class/hwmon/hwmon0/temp1_input";
 
   # networking.hostName = "nixos"; # Define your hostname.
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
