@@ -73,7 +73,6 @@
 	parted
 	pciutils
 	powershell
-	#qemu #might be manual?
 	qtkeychain
 	remmina
 	rhythmbox
@@ -103,6 +102,7 @@
   # manual only?
 	# elementary-music
 	# gnome-boxes
+	# qemu
 	# pycharm-community-2019.1
 	# sushi
 	# zenmap (not found?)
