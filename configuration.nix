@@ -72,6 +72,7 @@
 	openshift
 	parted
 	pciutils
+	powershell
 	#qemu #might be manual?
 	qtkeychain
 	remmina
