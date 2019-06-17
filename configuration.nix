@@ -43,6 +43,7 @@
   # free
 	ansible
 	atom
+	awscli
 	bind
 	calibre
 	chromium
