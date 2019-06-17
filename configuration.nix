@@ -89,6 +89,7 @@
 	vlc
 	wesnoth
 	wget
+	wine
 	wireshark
 	zsh
   # nonfree
