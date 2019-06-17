@@ -73,6 +73,7 @@
 	openshift
 	parted
 	pciutils
+	playonlinux
 	powershell
 	qtkeychain
 	remmina
@@ -89,7 +90,6 @@
 	vlc
 	wesnoth
 	wget
-	wine
 	wireshark
 	zsh
   # nonfree
