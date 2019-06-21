@@ -47,6 +47,7 @@
 	bind
 	calibre
 	chromium
+	clang
 	cmake
 	cool-retro-term
 	deja-dup
@@ -57,9 +58,11 @@
 	filezilla
 	flatpak
 	franz
+	gcc
 	gimp
 	git
 	gitkraken
+	gnumake
 	gparted
 	htop
 	icecat
@@ -103,6 +106,7 @@
 	teamviewer
   # antivirus
   	# fprot
+	# clamav
   # manual only?
 	# elementary-music
 	# gnome-boxes
