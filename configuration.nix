@@ -101,6 +101,8 @@
 	spotify
 	steam
 	teamviewer
+  # antivirus
+  	# fprot
   # manual only?
 	# elementary-music
 	# gnome-boxes
