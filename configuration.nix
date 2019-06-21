@@ -105,7 +105,7 @@
 	steam
 	teamviewer
   # antivirus
-  	# fprot
+  	# fprot - not working
 	# clamav
   # manual only?
 	# elementary-music
