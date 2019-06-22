@@ -167,6 +167,10 @@
   # services.xserver.displayManager.lightdm.enable = true;
   # services.xserver.desktopManager.pantheon.enable = true;
 
+  # Proprietary NVIDIA drivers
+  # services.xserver.videoDrivers = [ "nvidia" ]; # newer GPUs
+  # services.xserver.videoDrivers = [ "nvidiaLegacy970m" ]; #gtx 970M (and older GPUs)
+
   # Virtualisation Configutations.
 	# enable docker
 	  virtualisation.docker.enable = true;
