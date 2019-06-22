@@ -169,7 +169,7 @@
 
   # Proprietary NVIDIA drivers
   # services.xserver.videoDrivers = [ "nvidia" ]; # newer GPUs
-  # services.xserver.videoDrivers = [ "nvidiaLegacy970m" ]; #gtx 970M (and older GPUs)
+  # services.xserver.videoDrivers = [ "nvidiaLegacy970m" ]; # gtx 970M (and older GPUs)
 
   # Virtualisation Configutations.
 	# enable docker
