@@ -81,11 +81,12 @@
 	qtkeychain
 	remmina
 	rhythmbox
+	salt
 	samba
 	shutter
 	solaar
 	thunderbird
-	thinkfan #lenovo
+	# thinkfan # lenovo
 	#tomahawk - broken
 	transmission-remote-gtk
 	vim
