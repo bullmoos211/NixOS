@@ -15,6 +15,10 @@
   	boot.loader.systemd-boot.enable = true;
   	boot.loader.efi.canTouchEfiVariables = true;
   	boot.loader.grub.useOSProber = true;
+  # Plymouth boot
+	boot.plymouth.enable = true;
+	boot.plymouth.theme = "breeze";
+
 	
   # Thinkfan control - still not working
     services.thinkfan.enable = true;
@@ -77,6 +81,7 @@
 	parted
 	pciutils
 	playonlinux
+	plymouth
 	powershell
 	qtkeychain
 	remmina
