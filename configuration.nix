@@ -84,6 +84,7 @@
 	plymouth
 	powershell
 	qtkeychain
+	rclone
 	remmina
 	rhythmbox
 	salt
