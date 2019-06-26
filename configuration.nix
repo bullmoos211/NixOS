@@ -172,6 +172,11 @@
   # Pantheon
   # services.xserver.displayManager.lightdm.enable = true;
   # services.xserver.desktopManager.pantheon.enable = true;
+  
+  # Environment Exclusions
+    environment.gnome3.excludePackages = with pkgs; [
+	epiphany
+    ];
 
   # Proprietary NVIDIA drivers
   # services.xserver.videoDrivers = [ "nvidia" ]; # newer GPUs
