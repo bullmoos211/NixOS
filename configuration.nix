@@ -45,6 +45,7 @@
   # $ nix search wget
     environment.systemPackages = with pkgs; [
   # free
+  	acpi
 	ansible
 	atom
 	awscli
