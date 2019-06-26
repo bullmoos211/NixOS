@@ -93,7 +93,8 @@
 	solaar
 	thunderbird
 	# thinkfan # lenovo
-	#tomahawk - broken
+	# tomahawk - broken
+	tor-browser-bundle
 	transmission-remote-gtk
 	vim
 	virtualbox
@@ -112,9 +113,8 @@
 	steam
 	teamviewer
   # antivirus
-  	# fprot - not working
 	# clamav
-  # manual only?
+  # pkgs (manual)
 	# elementary-music
 	# gnome-boxes
 	# qemu
