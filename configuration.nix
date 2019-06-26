@@ -62,7 +62,7 @@
 	filezilla
 	flatpak
 	franz
-	gcc
+	# gcc # overloads CPU
 	gimp
 	git
 	gitkraken
