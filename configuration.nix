@@ -122,6 +122,7 @@
 	# qemu
 	# pycharm-community-2019.1
 	# sushi
+	# xfce4-terminal
 	# zenmap (not found?)
     ];
 
