@@ -67,6 +67,7 @@
 	gimp
 	git
 	gitkraken
+	gnome-usage
 	gnumake
 	gparted
 	htop
