@@ -70,6 +70,7 @@
 	gnome-usage
 	gnumake
 	gparted
+	guake
 	htop
 	icecat
 	kdenlive
