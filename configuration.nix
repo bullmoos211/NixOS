@@ -115,6 +115,7 @@
 	spotify
 	steam
 	teamviewer
+	vscode
   # antivirus
 	# clamav
   # pkgs (manual)
