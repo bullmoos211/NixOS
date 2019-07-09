@@ -78,6 +78,7 @@
 	lastpass-cli
 	libreoffice
 	lshw
+	neofetch
 	nixui
 	nmap
 	openshift
@@ -122,6 +123,7 @@
 	# elementary-music
 	# gnome-boxes
 	# qemu
+	# qmk_firmware
 	# pycharm-community-2019.1
 	# sushi
 	# xfce4-terminal
