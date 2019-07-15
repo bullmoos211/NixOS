@@ -50,6 +50,7 @@
 	atom
 	awscli
 	bind
+	brave
 	calibre
 	chromium
 	clang
@@ -82,11 +83,14 @@
 	nixui
 	nmap
 	openshift
+	opera
 	parted
 	pciutils
 	playonlinux
 	plymouth
 	powershell
+	python3
+	qmk_firmware
 	qtkeychain
 	rclone
 	remmina
