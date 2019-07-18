@@ -56,6 +56,7 @@
 	clang
 	cmake
 	cool-retro-term
+	copyq
 	deja-dup
 	deluge
 	docker
