@@ -59,6 +59,8 @@
 	copyq
 	deja-dup
 	deluge
+	dfu-programmer
+	dfu-util
 	docker
 	dmidecode
 	exfat
@@ -102,7 +104,6 @@
 	solaar
 	thunderbird
 	# thinkfan # lenovo
-	# tomahawk - broken
 	tor-browser-bundle
 	transmission-remote-gtk
 	vim
@@ -128,7 +129,6 @@
 	# elementary-music
 	# gnome-boxes
 	# qemu
-	# qmk_firmware
 	# pycharm-community-2019.1
 	# sushi
 	# xfce4-terminal
