@@ -46,6 +46,7 @@
     environment.systemPackages = with pkgs; [
   # free
   	acpi
+	adb
 	ansible
 	atom
 	awscli
