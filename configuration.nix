@@ -46,7 +46,7 @@
     environment.systemPackages = with pkgs; [
   # free
   	acpi
-	adb
+	# adb
 	ansible
 	atom
 	awscli
@@ -113,6 +113,7 @@
 	wesnoth
 	wget
 	wireshark
+	zoom-us
 	zsh
   # nonfree
 	adobe-reader
