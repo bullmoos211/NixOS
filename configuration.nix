@@ -58,6 +58,7 @@
 	cmake
 	cool-retro-term
 	copyq
+	dconf
 	deja-dup
 	deluge
 	dfu-programmer
