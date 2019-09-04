@@ -47,6 +47,7 @@
   # free
   	acpi
 	# adb
+	albert
 	ansible
 	atom
 	awscli
