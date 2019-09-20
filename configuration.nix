@@ -59,7 +59,6 @@
 	cmake
 	cool-retro-term
 	copyq
-	dconf
 	deja-dup
 	deluge
 	dfu-programmer
@@ -131,6 +130,7 @@
   # antivirus
 	# clamav
   # pkgs (manual)
+  	# dconf
 	# elementary-music
 	# gnome-boxes
 	# qemu
