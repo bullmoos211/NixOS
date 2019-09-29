@@ -84,7 +84,6 @@
 	lastpass-cli
 	libreoffice
 	lshw
-	mysql
 	neofetch
 	nixui
 	nmap
