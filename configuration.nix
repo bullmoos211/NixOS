@@ -118,7 +118,8 @@
 	zsh
   # nonfree
 	adobe-reader
-	anydesk	
+	anydesk
+	dotnet-packages
 	google-chrome
 	google-chrome-beta
 	# rambox - currently not working
