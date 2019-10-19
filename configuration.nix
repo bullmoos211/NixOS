@@ -49,6 +49,7 @@
 	# adb
 	albert
 	ansible
+	arp-scan
 	atom
 	awscli
 	bind
