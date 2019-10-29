@@ -21,7 +21,7 @@
 
 	
   # Thinkfan control - still not working
-    services.thinkfan.enable = true;
+  # services.thinkfan.enable = true;
   # services.thinkfan.sensor = "/sys/class/hwmon/hwmon0/temp1_input";
 
   # networking.hostName = "nixos"; # Define your hostname.
@@ -80,6 +80,7 @@
 	guake
 	htop
 	icecat
+	kate
 	kdenlive
 	kubernetes
 	lastpass-cli
