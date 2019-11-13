@@ -53,6 +53,7 @@
 	atom
 	awscli
 	bind
+	bitwarden-cli
 	brave
 	calibre
 	chromium
@@ -82,6 +83,7 @@
 	icecat
 	kate
 	kdenlive
+	keepass
 	kubernetes
 	lastpass-cli
 	libreoffice
@@ -122,6 +124,7 @@
 	adobe-reader
 	anydesk
 	dotnet-packages
+	dropbox
 	google-chrome
 	google-chrome-beta
 	# rambox - currently not working
