@@ -91,6 +91,7 @@
 	neofetch
 	nixui
 	nmap
+	okular
 	openshift
 	opera
 	parted
