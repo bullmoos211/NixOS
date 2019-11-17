@@ -86,6 +86,7 @@
 	keepass
 	kubernetes
 	lastpass-cli
+	libinput-gestures
 	libreoffice
 	lshw
 	neofetch
