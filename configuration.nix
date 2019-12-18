@@ -106,9 +106,11 @@
 	rclone
 	remmina
 	rhythmbox
+	rig
 	salt
 	samba
 	shutter
+	sl
 	solaar
 	thunderbird
 	# thinkfan # lenovo
