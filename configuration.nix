@@ -94,7 +94,6 @@
 	nmap
 	okular
 	openshift
-	opera
 	parted
 	pciutils
 	playonlinux
@@ -118,6 +117,7 @@
 	transmission-remote-gtk
 	vim
 	virtualbox
+	vivaldi
 	vlc
 	wesnoth
 	wget
