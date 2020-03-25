@@ -134,6 +134,7 @@
 	# rambox - currently not working
 	spotify
 	steam
+	synergy
 	teamviewer
 	vscode
   # antivirus
