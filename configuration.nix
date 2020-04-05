@@ -134,6 +134,7 @@
 	# rambox - currently not working
 	spotify
 	steam
+	steamcmd
 	synergy
 	teamviewer
 	vscode
