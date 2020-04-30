@@ -53,7 +53,6 @@
 	atom
 	awscli
 	bind
-	bitwarden-cli
 	brave
 	calibre
 	chromium
@@ -61,20 +60,25 @@
 	cmake
 	cool-retro-term
 	copyq
+	cron
+	# debian-build
 	deja-dup
 	deluge
 	dfu-programmer
 	dfu-util
 	docker
 	dmidecode
+	edk2
 	exfat
 	filezilla
+	firefox
 	flatpak
 	franz
-	# gcc # overloads CPU
+	gcc # overloads CPU
 	gimp
 	git
 	gitkraken
+	glava
 	gnome-usage
 	gnumake
 	gparted
@@ -83,72 +87,76 @@
 	icecat
 	kate
 	kdenlive
-	keepass
 	kubernetes
 	lastpass-cli
-	libinput-gestures
+	libinput-gestures #trackpad
 	libreoffice
 	lshw
+	# mtrack #trackpad
 	neofetch
 	nixui
 	nmap
-	okular
 	openshift
+	opera
 	parted
 	pciutils
 	playonlinux
 	plymouth
 	powershell
 	python3
+	qemu
 	qmk_firmware
 	qtkeychain
 	rclone
 	remmina
-	rhythmbox
 	rig
+	rhythmbox
 	salt
 	samba
 	shutter
 	sl
 	solaar
+	# synaptics #trackpad
 	thunderbird
 	# thinkfan # lenovo
 	tor-browser-bundle
 	transmission-remote-gtk
 	vim
+	virtmanager
 	virtualbox
-	vivaldi
 	vlc
 	wesnoth
 	wget
 	wireshark
+	wmctrl
 	zoom-us
 	zsh
+	#vivaldi #deb
   # nonfree
 	adobe-reader
 	anydesk
-	dotnet-packages
+  	# dotnet-packages
 	dropbox
 	google-chrome
 	google-chrome-beta
 	# rambox - currently not working
+	#skypeforlinux #deb
 	spotify
 	steam
-	steamcmd
 	synergy
 	teamviewer
+	#teams
 	vscode
   # antivirus
 	# clamav
   # pkgs (manual)
-  	# dconf
-	# elementary-music
-	# gnome-boxes
-	# qemu
-	# pycharm-community-2019.1
-	# sushi
-	# xfce4-terminal
-	# zenmap (not found?)
+  	#dconf - not working
+	#elementary-music
+	#gnome-boxes
+	#pycharm-community-2019.1
+	#sushi
+	#xfce4-terminal
+	#zenmap #(not found?)
     ];
 
   # Some programs need SUID wrappers, can be configured further or are
@@ -172,6 +180,7 @@
 
   # Enable CUPS to print documents.
     services.printing.enable = true;
+    services.printing.drivers = [ pkgs.brlaser ];
 
   # Enable sound.
     sound.enable = true;
@@ -183,7 +192,12 @@
     services.xserver.xkbOptions = "eurosign:e";
 
   # Enable touchpad support.
-    services.xserver.libinput.enable = true;
+  # Libinput-gestures
+    services.xserver.libinput.enable = true; 
+  # Synaptics
+  # services.xserver.synaptics.enable = true;
+  # Mtrack
+  # services.xserver.mtrack.enable = true;
 
   # Enable specific software.
     nixpkgs.config.allowUnfree = true;
@@ -222,7 +236,7 @@
   # Define a user account. Don't forget to set a password with ‘passwd’.
     users.users.daniel = {
       isNormalUser = true;
-      extraGroups = [ "wheel" "networkmanager" ]; # Enable ‘sudo’ for the user.
+      extraGroups = [ "wheel" "networkmanager" "input" ]; # Enable ‘sudo’ for the user.
     };
 
   # This value determines the NixOS release with which your system is to be
