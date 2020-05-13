@@ -85,6 +85,7 @@
 	guake
 	htop
 	icecat
+	icewm
 	kate
 	kdenlive
 	kubernetes
@@ -173,10 +174,14 @@
     services.openssh.enable = true;
 
   # Open ports in the firewall.
-  # networking.firewall.allowedTCPPorts = [ ... ];
+  # networking.firewall.allowedTCPPorts = [ 3389 ];
   # networking.firewall.allowedUDPPorts = [ ... ];
   # Or disable the firewall altogether.
   # networking.firewall.enable = false;
+  
+  # Enable remote control
+    services.xrdp.enable
+    services.xrdp.defaultWindowManager = "${pkgs.icewm}/bin/icewm";
 
   # Enable CUPS to print documents.
     services.printing.enable = true;
