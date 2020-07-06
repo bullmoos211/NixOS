@@ -104,6 +104,7 @@
 	playonlinux
 	plymouth
 	powershell
+	putty
 	python3
 	qemu
 	qmk_firmware
