@@ -84,7 +84,6 @@
 	gparted
 	guake
 	htop
-	icecat
 	icewm
 	kate
 	kdenlive
@@ -106,6 +105,7 @@
 	powershell
 	putty
 	python3
+	qbittorrent
 	qemu
 	qmk_firmware
 	qtkeychain
