@@ -53,6 +53,7 @@
 	atom
 	awscli
 	bind
+	bitwarden
 	brave
 	calibre
 	chromium
@@ -63,7 +64,6 @@
 	cron
 	# debian-build
 	deja-dup
-	deluge
 	dfu-programmer
 	dfu-util
 	docker
