@@ -87,6 +87,7 @@
 	icewm
 	kate
 	kdenlive
+	kompare
 	kubernetes
 	lastpass-cli
 	libinput-gestures #trackpad
