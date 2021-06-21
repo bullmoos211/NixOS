@@ -101,6 +101,7 @@
 	opera
 	parted
 	pciutils
+	pdfsam-basic
 	playonlinux
 	plymouth
 	powershell
