@@ -95,6 +95,7 @@
 	lshw
 	# mtrack #trackpad
 	neofetch
+	netdata
 	nixui
 	nmap
 	openshift
