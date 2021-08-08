@@ -56,6 +56,7 @@
 	bitwarden
 	brave
 	calibre
+	cfdisk
 	chromium
 	clang
 	cmake
