@@ -73,6 +73,7 @@
 	exfat
 	filezilla
 	firefox
+	flameshot
 	flatpak
 	franz
 	gcc # overloads CPU
