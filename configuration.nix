@@ -101,7 +101,6 @@
 	nixui
 	nmap
 	openshift
-	opera
 	parted
 	pciutils
 	pdfsam-basic
@@ -131,6 +130,7 @@
 	vim
 	virtmanager
 	virtualbox
+	vivaldi
 	vlc
 	wesnoth
 	wget
