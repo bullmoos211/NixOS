@@ -85,6 +85,7 @@
 	gnumake
 	gparted
 	guake
+	hardinfo
 	htop
 	icewm
 	kate
