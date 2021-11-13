@@ -101,6 +101,7 @@
 	netdata
 	nixui
 	nmap
+	openra
 	openshift
 	parted
 	pciutils
