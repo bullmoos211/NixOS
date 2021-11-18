@@ -107,6 +107,7 @@
 	parted
 	pciutils
 	pdfsam-basic
+	pioneer
 	playonlinux
 	plymouth
 	powershell
