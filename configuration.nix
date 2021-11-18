@@ -101,6 +101,7 @@
 	netdata
 	nixui
 	nmap
+	openjk
 	openra
 	openshift
 	parted
