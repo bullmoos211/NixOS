@@ -54,6 +54,7 @@
 	awscli
 	bind
 	bitwarden
+	bitwarden-cli
 	brave
 	calibre
 	cfdisk
