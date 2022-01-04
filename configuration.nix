@@ -102,6 +102,7 @@
 	netdata
 	nixui
 	nmap
+	obs-studio
 	openjk
 	openra
 	openshift
