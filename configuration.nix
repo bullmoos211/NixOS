@@ -104,6 +104,7 @@
 	nixui
 	nmap
 	obs-studio
+	ookla-speedtest
 	openjk
 	openra
 	openshift
