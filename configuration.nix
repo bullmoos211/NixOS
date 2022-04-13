@@ -145,6 +145,7 @@
 	vlc
 	wesnoth
 	wget
+	whatsapp-for-linux
 	wireshark
 	wmctrl
 	zoom-us
