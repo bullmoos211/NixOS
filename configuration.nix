@@ -130,6 +130,8 @@
 	shutter
 	sl
 	solaar
+	sublime
+	sublime-merge
 	# synaptics #trackpad
 	thunderbird
 	# thinkfan # lenovo
