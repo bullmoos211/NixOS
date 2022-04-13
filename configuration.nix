@@ -80,6 +80,7 @@
 	gcc # overloads CPU
 	gimp
 	git
+	github-desktop
 	gitkraken
 	glava
 	gnome-usage
