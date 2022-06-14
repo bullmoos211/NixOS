@@ -55,6 +55,7 @@
 	bind
 	bitwarden
 	bitwarden-cli
+	bottles
 	brave
 	calibre
 	cfdisk
