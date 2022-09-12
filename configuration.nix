@@ -227,6 +227,16 @@
   # Enable specific software.
     nixpkgs.config.allowUnfree = true;
     services.flatpak.enable = true;
+ 
+ # Enable Steam Proton.
+   programs.steam = {
+    enable = true;
+    remotePlay.openFirewall = true; # Open ports in the firewall for Steam Remote Play
+    dedicatedServer.openFirewall = true; # Open ports in the firewall for Source Dedicated Server
+  };
+   
+ # Enable 32-bit OpenGL.
+   hardware.opengl.driSupport32Bit = true;  
 
   # Enable the Desktop Environment.
 
@@ -252,7 +262,7 @@
   # Virtualisation Configutations.
 	# enable docker
 	  virtualisation.docker.enable = true;
-	# enable virtualbox, Oracle Extension Pack
+	# enable virtualbox, Oracle Pack
 	  virtualisation.virtualbox.host.enable = true;
 	  virtualisation.virtualbox.host.enableExtensionPack = true;
 	# Allow my regular use to control Docker.
