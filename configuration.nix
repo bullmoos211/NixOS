@@ -92,6 +92,7 @@
 	htop
 	icewm
 	kate
+	kazam
 	kdenlive
 	kompare
 	kubernetes
