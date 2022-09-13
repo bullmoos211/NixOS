@@ -99,6 +99,7 @@
 	libinput-gestures #trackpad
 	libreoffice
 	lshw
+	lutris
 	# mtrack #trackpad
 	neofetch
 	netdata
