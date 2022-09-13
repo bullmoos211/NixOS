@@ -25,7 +25,7 @@
   # services.thinkfan.sensor = "/sys/class/hwmon/hwmon0/temp1_input";
 
   # networking.hostName = "nixos"; # Define your hostname.
-  # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
+    networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
 
   # Configure network proxy if necessary
   # networking.proxy.default = "http://user:password@proxy:port/";
@@ -41,8 +41,7 @@
   # Set your time zone.
     time.timeZone = "Asia/Jerusalem";
 
-  # List packages installed in system profile. To search, run:
-  # $ nix search wget
+  # List packages installed in system profile. To search, run: "nix search wget"
     environment.systemPackages = with pkgs; [
   # free
   	acpi
@@ -169,6 +168,7 @@
 	#teams
 	vscode
   # antivirus
+  	# ossec
 	# clamav
   # pkgs (manual)
   	#dconf - not working
@@ -239,16 +239,15 @@
    hardware.opengl.driSupport32Bit = true;  
 
   # Enable the Desktop Environment.
-
-  # KDE
-  # services.xserver.displayManager.sddm.enable = true;
-  # services.xserver.desktopManager.plasma5.enable = true;
-  # Gnome
-    services.xserver.displayManager.gdm.enable = true;
-    services.xserver.desktopManager.gnome3.enable = true;
-  # Pantheon
-  # services.xserver.displayManager.lightdm.enable = true;
-  # services.xserver.desktopManager.pantheon.enable = true;
+  	# KDE:
+  	# services.xserver.displayManager.sddm.enable = true;
+  	# services.xserver.desktopManager.plasma5.enable = true;
+  	# Gnome:
+    	services.xserver.displayManager.gdm.enable = true;
+    	services.xserver.desktopManager.gnome3.enable = true;
+  	# Pantheon
+  	# services.xserver.displayManager.lightdm.enable = true;
+  	# services.xserver.desktopManager.pantheon.enable = true;
   
   # Environment Exclusions
     environment.gnome3.excludePackages = with pkgs; [
@@ -257,7 +256,21 @@
 
   # Proprietary NVIDIA drivers
   # services.xserver.videoDrivers = [ "nvidia" ]; # newer GPUs
-  # services.xserver.videoDrivers = [ "nvidiaLegacy970m" ]; # gtx 970M (and older GPUs)
+  
+  # AMD Radeon Drivers
+  # boot.initrd.kernelModules = [ "amdgpu" ];
+  # services.xserver.videoDrivers = [ "amdgpu" ];
+
+  # OpenCL
+  hardware.opengl.extraPackages = with pkgs; [
+  rocm-opencl-icd
+  rocm-opencl-runtime
+];
+
+  # Vulkan:
+  hardware.opengl.driSupport = true;
+  # For 32 bit applications
+  hardware.opengl.driSupport32Bit = true;
 
   # Virtualisation Configutations.
 	# enable docker
