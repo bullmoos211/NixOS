@@ -109,6 +109,7 @@
 	ookla-speedtest
 	openjk
 	openra
+	openrgb
 	openshift
 	parted
 	pciutils
