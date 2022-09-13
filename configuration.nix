@@ -161,6 +161,7 @@
 	dropbox
 	google-chrome
 	google-chrome-beta
+	foxitreader
 	# rambox - currently not working
 	#skypeforlinux #deb
 	spotify
