@@ -140,6 +140,7 @@
 	# thinkfan # lenovo
 	tor-browser-bundle
 	transmission-remote-gtk
+	via
 	vial
 	vim
 	virtmanager
