@@ -101,6 +101,7 @@
 	lshw
 	lutris
 	# mtrack #trackpad
+	mission-center
 	neofetch
 	netdata
 	nixui
